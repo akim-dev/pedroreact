@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.board-row{
+    display: grid   ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+
+}
+
+.square {
+/* grid-column: 1 /span 4; */
+background-color: blueviolet;
+border: 1px solid black;
+text-align: center;
+padding: 10px;
+
+font-size: 25px;
+border-radius: 2px;
+}

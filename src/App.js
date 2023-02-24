@@ -6,6 +6,7 @@ import BelajarState from "./pages/BelajarState";
 import ConditonalRendering from "./pages/ConditonalRendering";
 import RenderingList from "./pages/RenderingList";
 import StateBersama from "./pages/StateBersama";
+import TicTacToe from './pages/TicTacToe'
 
 function App() {
 
@@ -43,7 +44,10 @@ function App() {
       {/* <BelajarState/> */}
       {/* <BelajarState/> */}
       {/* <BelajarState/> */}
-      <StateBersama/>
+      {/* <StateBersama/> */}
+
+      {/* Project dari documentasi */}
+      <TicTacToe/>
     </div>
   );
 }
