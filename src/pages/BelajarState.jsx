@@ -6,8 +6,8 @@ function BelajarState() {
   const [count, setCount] = useState(0);
 
   const handlePlus = () => {
-    if (count === 50) {
-      setCount(50);
+    if (count === 157) {
+      setCount(157);
     } else {
       setCount(count + 1);
     }

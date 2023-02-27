@@ -7,6 +7,7 @@ import ConditonalRendering from "./pages/ConditonalRendering";
 import RenderingList from "./pages/RenderingList";
 import StateBersama from "./pages/StateBersama";
 import TicTacToe from './pages/TicTacToe'
+import TodoPedro from "./pages/TodoPedro";
 
 function App() {
 
@@ -47,7 +48,8 @@ function App() {
       {/* <StateBersama/> */}
 
       {/* Project dari documentasi */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+      <TodoPedro/>
     </div>
   );
 }

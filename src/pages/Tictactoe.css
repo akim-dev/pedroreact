@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 
 .board-row{
@@ -20,7 +20,6 @@ background-color: blueviolet;
 border: 1px solid black;
 text-align: center;
 padding: 10px;
-
 font-size: 25px;
 border-radius: 2px;
 }
