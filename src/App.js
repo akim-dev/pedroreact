@@ -6,11 +6,10 @@ import BelajarState from "./pages/BelajarState";
 import ConditonalRendering from "./pages/ConditonalRendering";
 import RenderingList from "./pages/RenderingList";
 import StateBersama from "./pages/StateBersama";
-import TicTacToe from './pages/TicTacToe'
+import TicTacToe from "./pages/TicTacToe";
 import TodoPedro from "./pages/TodoPedro";
 
 function App() {
-
   // style in JSX
   const user = {
     name: "John Doe",
@@ -19,8 +18,6 @@ function App() {
     imageurl: "https://i.imgur.com/yXOvdOSs.jpg",
     imagesize: 90,
   };
-
-
 
   return (
     <div>
@@ -49,7 +46,8 @@ function App() {
 
       {/* Project dari documentasi */}
       {/* <TicTacToe/> */}
-      <TodoPedro/>
+      {/* <TodoPedro/> */}
+      <TodoPedro />
     </div>
   );
 }
