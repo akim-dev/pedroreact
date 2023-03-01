@@ -8,6 +8,8 @@ import RenderingList from "./pages/RenderingList";
 import StateBersama from "./pages/StateBersama";
 import TicTacToe from "./pages/TicTacToe";
 import TodoPedro from "./pages/TodoPedro";
+import ChatGPT from "./pages/ChatGPT";
+import PedroTodoNulis from "./pages/PedroTodoNulis";
 
 function App() {
   // style in JSX
@@ -47,7 +49,9 @@ function App() {
       {/* Project dari documentasi */}
       {/* <TicTacToe/> */}
       {/* <TodoPedro/> */}
-      <TodoPedro />
+      {/* <TodoPedro /> */}
+      {/* <ChatGPT /> */}
+      <PedroTodoNulis />
     </div>
   );
 }
